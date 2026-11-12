@@ -1,0 +1,37 @@
+# ---- raw data (too large for GitHub) ----
+# ignore everything in data/raw but keep the folder layout
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+
+# large genomics formats, in case they end up elsewhere
+*.wig
+*.bigwig
+*.bw
+*.gtf
+*.gtf.gz
+*.n_contact
+*.hic
+*.cool
+*.mcool
+*.bam
+*.bai
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

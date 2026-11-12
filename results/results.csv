@@ -1,0 +1,3 @@
+model,roc_auc,balanced_accuracy,f1_macro,best_params
+RANDOM FOREST,0.7081218139478138,0.6047969148670942,0.6026219712040488,"{'min_samples_split': 5, 'max_depth': 12, 'class_weight': 'balanced'}"
+XGBOOST,0.6800129431297974,0.6022878573285168,0.603326584372891,"{'scale_pos_weight': 1, 'max_depth': 5, 'learning_rate': 0.2}"
